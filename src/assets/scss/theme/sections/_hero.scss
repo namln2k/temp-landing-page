@@ -1,0 +1,66 @@
+.hero {
+    .hero-inner {
+        padding-top: 20px;
+
+        .hero-content {
+            margin-top: 40px;
+        }
+
+        .slide {
+            width: 100%;
+            min-height: 50vh;
+            overflow: hidden;
+            position: relative;
+
+            .image {
+                width: 100%;
+                height: 100%;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: 50% 75%;
+                position: absolute;
+                animation: slide 20s infinite;
+                opacity: 0;
+            }
+
+            @keyframes slide {
+                10% {
+                    opacity: 1;
+                }
+                20% {
+                    opacity: 1;
+                }
+                30% {
+                    opacity: 0;
+                }
+                40% {
+                    transform: scale(1.1);
+                }
+            }
+
+            .image1 {
+                background-image: url(../../../images/slide-image-1-1.jpg);
+            }
+
+            .image2 {
+                background-image: url(../../../images/slide-image-1-2.png);
+                animation-delay: 4s;
+            }
+
+            .image3 {
+                background-image: url(../../../images/slide-image-1-3.jpg);
+                animation-delay: 8s;
+            }
+
+            .image4 {
+                background-image: url(../../../images/slide-image-1-4.jpg);
+                animation-delay: 12s;
+            }
+
+            .image5 {
+                background-image: url(../../../images/slide-image-1-5.jpg);
+                animation-delay: 16s;
+            }
+        }
+    }
+}
