@@ -32,7 +32,7 @@
 	flex-basis: $tiles-item--width;
 	max-width: $tiles-item--width;
 	box-sizing: content-box;
-	padding: $tiles-items--padding__mobile * 0.5;
+	padding: $tiles-items--padding__mobile $tiles-items--padding__mobile * 0.5;
 
 	* {
 		box-sizing: border-box;

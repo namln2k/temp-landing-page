@@ -131,9 +131,9 @@ const FeaturesTiles = ({
                                         Ngày truyền thống của Đội
                                     </h4>
                                     <p className="m-0 text-sm">
-                                        21/09 chính là ngày truyền thống của
-                                        VIT. Thú vị hơn là, ngày này hàng năm
-                                        còn là
+                                        <b>21/09</b> chính là ngày truyền thống
+                                        của VIT. Thú vị hơn là, ngày này hàng
+                                        năm còn là
                                     </p>
                                     <GiftBox>
                                         <div className="birthday-title">
@@ -200,20 +200,86 @@ const FeaturesTiles = ({
                                 </div>
                                 <div className="features-tiles-item-content">
                                     <h4 className="mt-0 mb-8">
-                                        Hoạt động truyền thống hàng tuần
+                                        Cơ cấu tổ chức của Đội
                                     </h4>
-                                    <p className="m-0 text-sm">
-                                        Dạy học tại{' '}
-                                        <a href="http://huunghidongda.org.vn/">
-                                            <b>Nhà Trẻ Hữu Nghị Quận Đống Đa</b>
-                                        </a>
-                                    </p>
+                                    <div className="m-0 text-sm">
+                                        <ul>
+                                            <li>
+                                                Đội được quản lý bởi 1 Đội
+                                                trưởng và 2 Đội phó, Mảng trưởng
+                                                của 4 Mảng và Chủ nhiệm của 3
+                                                Câu lạc bộ
+                                            </li>
+                                            <li>
+                                                Chi tiết xem tại đây:{' '}
+                                                <a href="https://www.facebook.com/267010383431070/posts/pfbid026T5nwiTJD5oPs1xiYr6g6XaKmuY1j5LEZywwb5iCCGK7RQQideEP7UPeHc7qZuWml/">
+                                                    <b>
+                                                        BAN QUẢN LÝ NHIỆM KỲ
+                                                        2021-2022
+                                                    </b>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="tiles-item tile5 reveal-from-bottom">
+                            <div className="tiles-item-inner">
+                                <div className="features-tiles-item-header">
+                                    <div className="features-tiles-item-image mb-16">
+                                        <Image
+                                            src={require('./../../assets/images/feature-tile-icon-04.svg')}
+                                            alt="Features tile icon 04"
+                                            width={64}
+                                            height={64}
+                                        />
+                                    </div>
+                                </div>
+                                <div className="features-tiles-item-content">
+                                    <h4 className="mt-0 mb-8">
+                                        Hoạt động truyền thống
+                                    </h4>
+                                    <div className="m-0 text-sm">
+                                        <ul>
+                                            <li>
+                                                Hàng tuần, Đội tổ chức dạy học
+                                                tại{' '}
+                                                <a href="http://huunghidongda.org.vn/">
+                                                    <b>
+                                                        Nhà Trẻ Hữu Nghị Quận
+                                                        Đống Đa
+                                                    </b>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                Mỗi dịp cận Tết, Đội cũng thực
+                                                hiện chiến dịch{' '}
+                                                <b>Xuân Yêu Thương</b>, nhằm lan
+                                                tỏa không khí của một mùa xuân
+                                                ấm áp, một cái Tết vẹn tròn đến
+                                                những vùng cao, vùng xa
+                                            </li>
+                                            <li>
+                                                Và chiến dịch lớn nhất trong năm
+                                                - <b>Mùa Hè Xanh</b>: Dưới sự
+                                                chỉ đạo của Đoàn thanh niên và
+                                                Hội sinh viên ĐHBKHN, hàng trăm
+                                                thành viên của Đội mang sức trẻ
+                                                và nhiệt huyết của mình đi giúp
+                                                đỡ cho những hoàn cảnh còn nhiều
+                                                khó khăn, thiếu thốn trên khắp
+                                                cả nước.
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
                         <div
-                            className="tiles-item tile5 reveal-from-bottom"
+                            className="tiles-item tile6 reveal-from-bottom"
                             data-reveal-delay="400"
                         >
                             <div className="tiles-item-inner">
