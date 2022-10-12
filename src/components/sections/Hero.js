@@ -85,7 +85,7 @@ const Hero = ({
                             className="mt-0 mb-16 reveal-from-bottom"
                             data-reveal-delay="200"
                         >
-                            <span className="text-color-primary">{fullVietnameseName}</span>
+                            {fullVietnameseName}
                         </h1>
                         <div className="container-sm">
                             <p

@@ -33,7 +33,7 @@ const FeaturesTiles = ({
   );
 
   const innerClasses = classNames(
-    'features-tiles-inner section-inner pt-0',
+    'features-tiles-inner section-inner pt-0 has-top-divider',
     topDivider && 'has-top-divider',
     bottomDivider && 'has-bottom-divider'
   );
@@ -44,8 +44,7 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'Build up the whole picture',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'Giới thiệu về Đội'
   };
 
   return (
