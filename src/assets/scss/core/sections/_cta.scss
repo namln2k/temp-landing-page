@@ -8,6 +8,10 @@
 
 .cta-slogan {
 	margin-bottom: $cta-slogan--padding-v__mobile;
+
+    h3 {
+        color: white;
+    }
 }
 
 @include media( '>medium' ) {

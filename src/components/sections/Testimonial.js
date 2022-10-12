@@ -61,10 +61,10 @@ const Testimonial = ({
                             <div className="tiles-item-inner">
                                 <div className="testimonial-item-content">
                                     <div className="image image1">
-                                        <div class="box quote">
-                                            <i class="fas fa-quote-left fa2"></i>
-                                            <div class="text">
-                                                <i class="fas fa-quote-right fa1"></i>
+                                        <div className="box quote">
+                                            <i className="fas fa-quote-left fa2"></i>
+                                            <div className="text">
+                                                <i className="fas fa-quote-right fa1"></i>
                                                 <div>
                                                     <p>
                                                         Mình vẫn luôn muốn câu
@@ -102,10 +102,10 @@ const Testimonial = ({
                             <div className="tiles-item-inner">
                                 <div className="testimonial-item-content">
                                     <div className="image image2">
-                                        <div class="box quote">
-                                            <i class="fas fa-quote-left fa2"></i>
-                                            <div class="text">
-                                                <i class="fas fa-quote-right fa1"></i>
+                                        <div className="box quote">
+                                            <i className="fas fa-quote-left fa2"></i>
+                                            <div className="text">
+                                                <i className="fas fa-quote-right fa1"></i>
                                                 <div>
                                                     <p>
                                                         Niềm vui lớn nhất của
@@ -146,10 +146,10 @@ const Testimonial = ({
                             <div className="tiles-item-inner">
                                 <div className="testimonial-item-content">
                                     <div className="image image3">
-                                        <div class="box quote">
-                                            <i class="fas fa-quote-left fa2"></i>
-                                            <div class="text">
-                                                <i class="fas fa-quote-right fa1"></i>
+                                        <div className="box quote">
+                                            <i className="fas fa-quote-left fa2"></i>
+                                            <div className="text">
+                                                <i className="fas fa-quote-right fa1"></i>
                                                 <div>
                                                     <p>
                                                         Sở thích là tắm nắng vào
@@ -188,10 +188,10 @@ const Testimonial = ({
                             <div className="tiles-item-inner">
                                 <div className="testimonial-item-content">
                                     <div className="image image4">
-                                        <div class="box quote">
-                                            <i class="fas fa-quote-left fa2"></i>
-                                            <div class="text">
-                                                <i class="fas fa-quote-right fa1"></i>
+                                        <div className="box quote">
+                                            <i className="fas fa-quote-left fa2"></i>
+                                            <div className="text">
+                                                <i className="fas fa-quote-right fa1"></i>
                                                 <div>
                                                     <p>
                                                         Chị từng coi Đội là tất
@@ -230,10 +230,10 @@ const Testimonial = ({
                             <div className="tiles-item-inner">
                                 <div className="testimonial-item-content">
                                     <div className="image image5">
-                                        <div class="box quote">
-                                            <i class="fas fa-quote-left fa2"></i>
-                                            <div class="text">
-                                                <i class="fas fa-quote-right fa1"></i>
+                                        <div className="box quote">
+                                            <i className="fas fa-quote-left fa2"></i>
+                                            <div className="text">
+                                                <i className="fas fa-quote-right fa1"></i>
                                                 <div>
                                                     <p>
                                                         Dù nhiệm kỳ của mình
@@ -272,10 +272,10 @@ const Testimonial = ({
                             <div className="tiles-item-inner">
                                 <div className="testimonial-item-content">
                                     <div className="image image6">
-                                        <div class="box quote">
-                                            <i class="fas fa-quote-left fa2"></i>
-                                            <div class="text">
-                                                <i class="fas fa-quote-right fa1"></i>
+                                        <div className="box quote">
+                                            <i className="fas fa-quote-left fa2"></i>
+                                            <div className="text">
+                                                <i className="fas fa-quote-right fa1"></i>
                                                 <div>
                                                     <p>
                                                         Mình chúc thế hệ sau
