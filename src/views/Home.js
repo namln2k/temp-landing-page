@@ -26,7 +26,7 @@ const Home = () => {
     return (
         <>
             <Hero className="illustration-section-01" info={info} />
-            <FeaturesTiles />
+            <FeaturesTiles info={info} />
             <FeaturesSplit
                 invertMobile
                 topDivider

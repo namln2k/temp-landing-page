@@ -3,6 +3,12 @@ import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
 import Modal from '../elements/Modal';
 import WonderfulButton from '../elements/wonderfulButton/WonderfulButton';
+import SimpleSlide from '../elements/simpleSlide/SimpleSlide';
+import image1 from '../../assets/images/slide-image-1-1.jpg';
+import image2 from '../../assets/images/slide-image-1-2.png';
+import image3 from '../../assets/images/slide-image-1-3.jpg';
+import image4 from '../../assets/images/slide-image-1-4.jpg';
+import image5 from '../../assets/images/slide-image-1-5.jpg';
 
 const propTypes = {
     ...SectionProps.types
@@ -36,7 +42,7 @@ const Hero = ({
         songs,
         viceCaptain,
         youtube
-    } = props.info
+    } = props.info;
 
     const openModal = (e) => {
         e.preventDefault();
@@ -72,13 +78,10 @@ const Hero = ({
                         data-reveal-value="20px"
                         data-reveal-delay="800"
                     >
-                        <div className="slide">
-                            <div className="image image1"></div>
-                            <div className="image image2"></div>
-                            <div className="image image3"></div>
-                            <div className="image image4"></div>
-                            <div className="image image5"></div>
-                        </div>
+                        <div className="slide-wrapper"></div>
+                        <SimpleSlide
+                            images={[image1, image2, image3, image4, image5]}
+                        ></SimpleSlide>
                     </div>
                     <div className="hero-content">
                         <h1
@@ -98,7 +101,9 @@ const Hero = ({
                                 className="reveal-from-bottom"
                                 data-reveal-delay="600"
                             >
-                                <WonderfulButton href="#" target={null}>Đăng ký ngay</WonderfulButton>
+                                <WonderfulButton href="#" target={null}>
+                                    Đăng ký ngay
+                                </WonderfulButton>
                             </div>
                         </div>
                     </div>

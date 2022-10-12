@@ -1,0 +1,30 @@
+.slide {
+    overflow: hidden;
+    position: relative;
+
+    .image {
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 75%;
+        position: absolute;
+        animation: slide 20s infinite;
+        opacity: 0;
+    }
+
+    @keyframes slide {
+        10% {
+            opacity: 1;
+        }
+        20% {
+            opacity: 1;
+        }
+        30% {
+            opacity: 0;
+        }
+        40% {
+            transform: scale(1.1);
+        }
+    }
+}
