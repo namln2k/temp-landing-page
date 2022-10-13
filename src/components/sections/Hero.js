@@ -4,11 +4,11 @@ import { SectionProps } from '../../utils/SectionProps';
 import Modal from '../elements/Modal';
 import WonderfulButton from '../elements/wonderfulButton/WonderfulButton';
 import SimpleSlide from '../elements/simpleSlide/SimpleSlide';
-import image1 from '../../assets/images/slide-image-1-1.jpg';
-import image2 from '../../assets/images/slide-image-1-2.png';
-import image3 from '../../assets/images/slide-image-1-3.jpg';
-import image4 from '../../assets/images/slide-image-1-4.jpg';
-import image5 from '../../assets/images/slide-image-1-5.jpg';
+import image1 from '../../assets/images/hero-slide-image-01.jpg';
+import image2 from '../../assets/images/hero-slide-image-02.jpg';
+import image3 from '../../assets/images/hero-slide-image-03.jpg';
+import image4 from '../../assets/images/hero-slide-image-04.jpg';
+import image5 from '../../assets/images/hero-slide-image-05.jpg';
 
 const propTypes = {
     ...SectionProps.types
