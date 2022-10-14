@@ -56,8 +56,8 @@
 			.split-item {
 
 				.split-item-content {
-					order: 1;
-					margin-bottom: 0 !important;
+					order: 0;
+					margin-bottom: 10 !important;
 				}
 
 				.split-item-image {
@@ -108,7 +108,7 @@
 			.split-item-content {
 				order: 1;
 				margin-left: $split-item--inner-padding-h;
-				margin-right: 0;
+				margin-right: 10px;
 			}
 		}
 
