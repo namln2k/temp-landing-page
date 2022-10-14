@@ -1,0 +1,33 @@
+.site-content {
+    position: relative;
+}
+
+.loader {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 99;
+    background: #6f9dcb;
+    transition: 0.4s all ease;
+
+    img {
+        width: 100px;
+        position: fixed;
+        top: 50vh;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: 0.4s all ease;
+    }
+
+    &.hide {
+        width: 0%;
+
+        img {
+            opacity: 0;
+        }
+    }
+}

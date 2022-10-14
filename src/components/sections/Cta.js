@@ -51,16 +51,16 @@ const Cta = ({
                         </h3>
                     </div>
                     <div className="cta-action">
-                        <div class="parent-wrapper">
-                            <span class="close-btn glyphicon glyphicon-remove"></span>
-                            <div class="subscribe-wrapper">
+                        <div className="parent-wrapper">
+                            <span className="close-btn glyphicon glyphicon-remove"></span>
+                            <div className="subscribe-wrapper">
                                 <input
                                     type="email"
                                     name="email"
-                                    class="subscribe-input"
+                                    className="subscribe-input"
                                     placeholder="Email mà bạn hay dùng nhất"
                                 />
-                                <div class="submit-btn">Submit</div>
+                                <div className="submit-btn">Submit</div>
                             </div>
                         </div>
                     </div>

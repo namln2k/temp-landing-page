@@ -60,20 +60,18 @@ const Testimonial = ({
                         >
                             <div className="tiles-item-inner">
                                 <div className="testimonial-item-content">
-                                    <div className="image image1">
-                                        <div className="box quote">
-                                            <i className="fas fa-quote-left fa2"></i>
-                                            <div className="text">
-                                                <i className="fas fa-quote-right fa1"></i>
-                                                <div>
-                                                    <p>
-                                                        Mình vẫn luôn muốn câu
-                                                        khẩu hiệu Đội là thứ mà
-                                                        ai đã và đang là thành
-                                                        viên của VIT sẽ không
-                                                        bao giờ quên.
-                                                    </p>
-                                                </div>
+                                    <div className="image image1"></div>
+                                    <div className="box quote">
+                                        <i className="fas fa-quote-left fa2"></i>
+                                        <div className="text">
+                                            <i className="fas fa-quote-right fa1"></i>
+                                            <div>
+                                                <p>
+                                                    Mình vẫn luôn muốn câu khẩu
+                                                    hiệu Đội là thứ mà ai đã và
+                                                    đang là thành viên của VIT
+                                                    sẽ không bao giờ quên.
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -101,23 +99,21 @@ const Testimonial = ({
                         >
                             <div className="tiles-item-inner">
                                 <div className="testimonial-item-content">
-                                    <div className="image image2">
-                                        <div className="box quote">
-                                            <i className="fas fa-quote-left fa2"></i>
-                                            <div className="text">
-                                                <i className="fas fa-quote-right fa1"></i>
-                                                <div>
-                                                    <p>
-                                                        Niềm vui lớn nhất của
-                                                        mình là thấy mọi người
-                                                        cùng trải nghiệm các
-                                                        hoạt động mình tổ chức,
-                                                        dù nhiều lúc không như
-                                                        mong đợi nhưng thấy mọi
-                                                        người vui là mình thích
-                                                        lắm rồi
-                                                    </p>
-                                                </div>
+                                    <div className="image image2"></div>
+                                    <div className="box quote">
+                                        <i className="fas fa-quote-left fa2"></i>
+                                        <div className="text">
+                                            <i className="fas fa-quote-right fa1"></i>
+                                            <div>
+                                                <p>
+                                                    Niềm vui lớn nhất của mình
+                                                    là thấy mọi người cùng trải
+                                                    nghiệm các hoạt động mình tổ
+                                                    chức, dù nhiều lúc không như
+                                                    mong đợi nhưng thấy mọi
+                                                    người vui là mình thích lắm
+                                                    rồi
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -145,21 +141,20 @@ const Testimonial = ({
                         >
                             <div className="tiles-item-inner">
                                 <div className="testimonial-item-content">
-                                    <div className="image image3">
-                                        <div className="box quote">
-                                            <i className="fas fa-quote-left fa2"></i>
-                                            <div className="text">
-                                                <i className="fas fa-quote-right fa1"></i>
-                                                <div>
-                                                    <p>
-                                                        Sở thích là tắm nắng vào
-                                                        những ngày mưa, ăn trưa
-                                                        vào lúc trời tối, sở
-                                                        trường của anh là ngủ và
-                                                        song song với đó thì sở
-                                                        đoản của anh là HỌC.
-                                                    </p>
-                                                </div>
+                                    <div className="image image3"></div>
+                                    <div className="box quote">
+                                        <i className="fas fa-quote-left fa2"></i>
+                                        <div className="text">
+                                            <i className="fas fa-quote-right fa1"></i>
+                                            <div>
+                                                <p>
+                                                    Sở thích là tắm nắng vào
+                                                    những ngày mưa, ăn trưa vào
+                                                    lúc trời tối, sở trường của
+                                                    anh là ngủ và song song với
+                                                    đó thì sở đoản của anh là
+                                                    HỌC.
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -187,24 +182,22 @@ const Testimonial = ({
                         >
                             <div className="tiles-item-inner">
                                 <div className="testimonial-item-content">
-                                    <div className="image image4">
-                                        <div className="box quote">
-                                            <i className="fas fa-quote-left fa2"></i>
-                                            <div className="text">
-                                                <i className="fas fa-quote-right fa1"></i>
-                                                <div>
-                                                    <p>
-                                                        Chị từng coi Đội là tất
-                                                        cả. Chị tìm được niềm
-                                                        vui khi được đóng góp
-                                                        những thứ nhỏ bé. Chị
-                                                        cảm thấy chị không vô
-                                                        dụng khi tham gia hoạt
-                                                        động. Chị cảm thấy luôn
-                                                        có những người bạn tuyệt
-                                                        vời ở bên.
-                                                    </p>
-                                                </div>
+                                    <div className="image image4"></div>
+                                    <div className="box quote">
+                                        <i className="fas fa-quote-left fa2"></i>
+                                        <div className="text">
+                                            <i className="fas fa-quote-right fa1"></i>
+                                            <div>
+                                                <p>
+                                                    Chị từng coi Đội là tất cả.
+                                                    Chị tìm được niềm vui khi
+                                                    được đóng góp những thứ nhỏ
+                                                    bé. Chị cảm thấy chị không
+                                                    vô dụng khi tham gia hoạt
+                                                    động. Chị cảm thấy luôn có
+                                                    những người bạn tuyệt vời ở
+                                                    bên.
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -229,24 +222,22 @@ const Testimonial = ({
                         >
                             <div className="tiles-item-inner">
                                 <div className="testimonial-item-content">
-                                    <div className="image image5">
-                                        <div className="box quote">
-                                            <i className="fas fa-quote-left fa2"></i>
-                                            <div className="text">
-                                                <i className="fas fa-quote-right fa1"></i>
-                                                <div>
-                                                    <p>
-                                                        Dù nhiệm kỳ của mình
-                                                        không có chung kết trà
-                                                        đá, nhưng mình nghĩ mình
-                                                        đã xóa bỏ được suy nghĩ
-                                                        sợ thua của mọi người.
-                                                        Chúng ta thực sự đã mạnh
-                                                        hơn về mảng văn nghệ rất
-                                                        nhiều, đặc biệt là mảng
-                                                        dance.
-                                                    </p>
-                                                </div>
+                                    <div className="image image5"></div>
+                                    <div className="box quote">
+                                        <i className="fas fa-quote-left fa2"></i>
+                                        <div className="text">
+                                            <i className="fas fa-quote-right fa1"></i>
+                                            <div>
+                                                <p>
+                                                    Dù nhiệm kỳ của mình không
+                                                    có chung kết trà đá, nhưng
+                                                    mình nghĩ mình đã xóa bỏ
+                                                    được suy nghĩ sợ thua của
+                                                    mọi người. Chúng ta thực sự
+                                                    đã mạnh hơn về mảng văn nghệ
+                                                    rất nhiều, đặc biệt là mảng
+                                                    dance.
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -271,20 +262,19 @@ const Testimonial = ({
                         >
                             <div className="tiles-item-inner">
                                 <div className="testimonial-item-content">
-                                    <div className="image image6">
-                                        <div className="box quote">
-                                            <i className="fas fa-quote-left fa2"></i>
-                                            <div className="text">
-                                                <i className="fas fa-quote-right fa1"></i>
-                                                <div>
-                                                    <p>
-                                                        Mình chúc thế hệ sau
-                                                        mạnh hơn thế hệ trước,
-                                                        luôn giữ được nhiệt của
-                                                        tuổi trẻ, chất của VIT;
-                                                        để VIT mãi mãi là family.
-                                                    </p>
-                                                </div>
+                                    <div className="image image6"></div>
+                                    <div className="box quote">
+                                        <i className="fas fa-quote-left fa2"></i>
+                                        <div className="text">
+                                            <i className="fas fa-quote-right fa1"></i>
+                                            <div>
+                                                <p>
+                                                    Mình chúc thế hệ sau mạnh
+                                                    hơn thế hệ trước, luôn giữ
+                                                    được nhiệt của tuổi trẻ,
+                                                    chất của VIT; để VIT mãi mãi
+                                                    là family.
+                                                </p>
                                             </div>
                                         </div>
                                     </div>

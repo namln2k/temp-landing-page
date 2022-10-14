@@ -121,15 +121,17 @@ const Header = ({
                                                 <Link
                                                     to="#"
                                                     className="button button-primary button-wide-mobile button-sm"
-                                                >
-                                                    Đăng nhập
-                                                </Link>
-                                                <Link
-                                                    to="#"
-                                                    className="button button-primary button-wide-mobile button-sm"
                                                     onClick={closeMenu}
                                                 >
                                                     Đăng ký
+                                                </Link>
+                                            </li>
+                                            <li>
+                                                <Link
+                                                    to="#"
+                                                    className="button button-primary button-wide-mobile button-sm"
+                                                >
+                                                    Đăng nhập
                                                 </Link>
                                             </li>
                                         </ul>
