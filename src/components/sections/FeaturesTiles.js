@@ -69,7 +69,7 @@ const FeaturesTiles = ({
     };
 
     return (
-        <section {...props} className={outerClasses}>
+        <section className={outerClasses}>
             <div className="container">
                 <div className={innerClasses}>
                     <SectionHeader
