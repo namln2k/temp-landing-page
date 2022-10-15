@@ -15,7 +15,7 @@ const Home = () => {
 
     useEffect(() => {
         const loadInfo = async () => {
-            // setLoading(true);
+            setLoading(true);
 
             const response = await axios.get(`${apiUrl}/vit`);
 
