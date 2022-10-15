@@ -40,7 +40,7 @@
 	}
 }
 
-@include media( '<=medium' ) {
+@include media( '<=semiLarge' ) {
 
 	.split-wrap {
 
@@ -57,7 +57,7 @@
 
 				.split-item-content {
 					order: 0;
-					margin-bottom: 10 !important;
+					margin-bottom: 20px !important;
 				}
 
 				.split-item-image {
@@ -68,7 +68,7 @@
 	}
 }
 
-@include media( '>medium' ) {
+@include media( '>semiLarge' ) {
 
 	.split-wrap {
 		margin-top: -($split-item--padding-v__desktop * 0.5);
