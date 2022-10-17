@@ -75,7 +75,7 @@ const Hero = ({
     );
 
     return (
-        <section className={outerClasses}>
+        <section {...props} className={outerClasses}>
             <div className="container-sm">
                 <div className={innerClasses}>
                     <div
@@ -89,7 +89,6 @@ const Hero = ({
                         ></SimpleSlide>
                         
                     </div>
-                    {/* anh bi vo */}
                     
                     <div className="hero-content">
                         <h1
@@ -103,7 +102,7 @@ const Hero = ({
                                 className="m-0 mb-32 reveal-from-bottom"
                                 data-reveal-delay="400"
                             >
-                                {description}
+                                VIT - Chúng ta là một gia đình ❤️
                             </p>
                             
                             <div

@@ -13,8 +13,3 @@
 [class*=illustration-section-]::after {
 	z-index: -2;
 }
-
-// Hero illustration
-.illustration-section-01::after {
-	@include illustration('illustration-section-01.svg', 100%, 286px, top);
-}

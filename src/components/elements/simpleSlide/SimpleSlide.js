@@ -9,7 +9,9 @@ const SimpleSlide = (props) => {
             {images.map((image, index) => {
                 return (
                     <div
-                        className={`image image${index + 1}`}
+                        className={`image image${index + 1} reveal-from-bottom`}
+                        data-reveal-value="100px"
+                        data-reveal-delay="200"
                         style={{
                             backgroundImage: `url(${image})`,
                             animationDelay: `${index * 4}s`

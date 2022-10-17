@@ -49,7 +49,7 @@ const FeaturesSplit = ({
     );
 
     const sectionHeader = {
-        title: 'Các hoạt động nổi bật trong năm học',
+        title: 'Hoạt động nổi bật trong năm học',
         paragraph:
             'Thành viên của VIT tham gia lập kế hoạch và thực hiện nhưng chương trình hoạt động mang tính chất hướng tới cộng đồng, tập trung tới đối tượng có hoàn cảnh khó khăn(trẻ em khuyết tật, mồ côi,…) hay tới những miền quê nghèo của tổ quốc, hướng sinh viên tới các hoạt động xã hội, tình nguyện vì cộng đồng, suy nghĩ tích cực và rèn luyện bản thân tránh xa các tệ nạn xã hội.'
     };
@@ -60,7 +60,9 @@ const FeaturesSplit = ({
                 <div className={innerClasses}>
                     <SectionHeader
                         data={sectionHeader}
-                        className="center-content"
+                        className="center-content reveal-from-bottom"
+                        data-reveal-value="40px"
+                        data-reveal-delay="800"
                     
                     />
                     <div className={splitClasses}>

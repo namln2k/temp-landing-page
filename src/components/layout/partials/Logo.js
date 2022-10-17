@@ -23,8 +23,8 @@ const Logo = ({
           <Image
             src={require('./../../../assets/images/logoVIT.png')}
             alt="Open"
-            width={60}
-            height={60} />
+            width={100}
+            height={100} />
         </Link>
       </h1>
     </div>

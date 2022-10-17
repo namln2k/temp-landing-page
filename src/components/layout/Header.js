@@ -1,7 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import { Link } from 'react-router-dom';
 import Logo from './partials/Logo';
 
 const propTypes = {
@@ -118,21 +117,24 @@ const Header = ({
                                     {!hideSignin && (
                                         <ul className="list-reset header-nav-right">
                                             <li>
-                                                <Link
-                                                    to="#"
-                                                    className="button button-primary button-wide-mobile button-sm"
-                                                    onClick={closeMenu}
-                                                >
-                                                    Đăng ký
-                                                </Link>
+                                                <a href="#general-info">
+                                                    Giới thiệu chung
+                                                </a>
                                             </li>
                                             <li>
-                                                <Link
-                                                    to="#"
-                                                    className="button button-primary button-wide-mobile button-sm"
-                                                >
-                                                    Đăng nhập
-                                                </Link>
+                                                <a href="#main-activities">
+                                                    Các hoạt động chính
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#featured-faces">
+                                                    Gương mặt tiêu biểu
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    Đăng ký ngay
+                                                </a>
                                             </li>
                                         </ul>
                                     )}
