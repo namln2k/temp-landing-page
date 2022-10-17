@@ -110,8 +110,8 @@
 
 			.header-nav-inner {
 				flex-direction: column;
-				padding-top: $header-nav--padding-v__mobile / 2;
-				padding-bottom: $header-nav--padding-v__mobile / 2;
+				padding-top: calc($header-nav--padding-v__mobile / 2);
+				padding-bottom: calc($header-nav--padding-v__mobile / 2);
 			}
 
 			ul {
