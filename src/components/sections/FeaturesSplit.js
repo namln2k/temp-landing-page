@@ -114,18 +114,16 @@ const FeaturesSplit = ({
                                 </div>
                                 <h3 className="mt-0 mb-12">Mùa hè xanh</h3>
                                 <p className="m-0">
-                                    Mùa Hè Xanh là chương trình tình nguyện được
-                                    diễn ra trong mùa hè, là một hoạt động vô
+                                    Mùa Hè Xanh là một hoạt động vô
                                     cùng ý nghĩa của các bạn sinh viên tình
                                     nguyện . Nó không chỉ đơn thuần là một
                                     chuyến đi dài mà còn là một chuỗi các hoạt
                                     động xã hội mang ý nghĩa lớn lao và tính
-                                    nhân văn sâu sắc. Một mùa hoa phượng nở nữa
-                                    lại đến, chúng tôi- Đội SVTN Viện Công nghệ
-                                    Thông tin và Truyền thông, Trường Đại học
+                                    nhân văn sâu sắc. Khi mùa hoa phượng nở đến, chúng tôi - Đội SVTN trường Công nghệ
+                                    Thông tin và Truyền thông, Đại học
                                     Bách khoa Hà Nội, lại hăng hái khoác lên
                                     mình chiếc áo xanh, đem sức trẻ, lòng nhiệt
-                                    huyết và tinh thần tình nguyện. 💖
+                                    huyết và tinh thần để đi tình nguyện. 💖
                                 </p>
                             </div>
                             <div

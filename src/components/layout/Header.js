@@ -128,7 +128,7 @@ const Header = ({
                                             </li>
                                             <li>
                                                 <a href="#featured-faces">
-                                                    Gương mặt tiêu biểu
+                                                    Humans of VIT
                                                 </a>
                                             </li>
                                             <li>

@@ -81,15 +81,13 @@ const Testimonial = ({
                                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                                     <div className="text-color-low">
                                         <span>
-                                            <a
-                                                href="#"
-                                            >
+                                            <a href="#">
                                                 <b>Phạm Minh Hiệp</b>
                                             </a>
                                         </span>
                                     </div>
                                     <div className="testimonial-item-name text-color-high">
-                                        Cựu Đội trưởng VIT - K63
+                                        Đội trưởng VIT - K63
                                     </div>
                                 </div>
                             </div>
@@ -122,15 +120,13 @@ const Testimonial = ({
                                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                                     <div className="text-color-low">
                                         <span>
-                                            <a
-                                                href="#"
-                                            >
+                                            <a href="#">
                                                 <b>Nguyễn Hoàng Anh</b>
                                             </a>
                                         </span>
                                     </div>
                                     <div className="testimonial-item-name text-color-high">
-                                        Cựu Mảng trưởng phong trào - K64
+                                        Mảng trưởng phong trào - K64
                                     </div>
                                 </div>
                             </div>
@@ -148,12 +144,13 @@ const Testimonial = ({
                                             <i className="fas fa-quote-right fa1"></i>
                                             <div>
                                                 <p>
-                                                    Sở thích là tắm nắng vào
-                                                    những ngày mưa, ăn trưa vào
-                                                    lúc trời tối, sở trường của
-                                                    anh là ngủ và song song với
-                                                    đó thì sở đoản của anh là
-                                                    HỌC.
+                                                    Nếu vì mâu thuẫn, vì bất mãn
+                                                    mà các bạn rời bỏ Đội, thì
+                                                    các bạn phải sống cả đời với
+                                                    những mâu thuẫn và bất mãn
+                                                    đó. Có hèn đến mấy thì cũng
+                                                    gồng mình lên mà giải quyết
+                                                    vấn đề của các bạn.
                                                 </p>
                                             </div>
                                         </div>
@@ -162,15 +159,13 @@ const Testimonial = ({
                                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                                     <div className="text-color-low">
                                         <span>
-                                            <a
-                                                href="#"
-                                            >
+                                            <a href="#">
                                                 <b>Đinh Văn Tân</b>
                                             </a>
                                         </span>
                                     </div>
                                     <div className="testimonial-item-name text-color-high">
-                                        Cựu Đội phó - K64
+                                        Đội phó - K64
                                     </div>
                                 </div>
                             </div>
@@ -188,14 +183,15 @@ const Testimonial = ({
                                             <i className="fas fa-quote-right fa1"></i>
                                             <div>
                                                 <p>
-                                                    Chị từng coi Đội là tất cả.
-                                                    Chị tìm được niềm vui khi
-                                                    được đóng góp những thứ nhỏ
-                                                    bé. Chị cảm thấy chị không
-                                                    vô dụng khi tham gia hoạt
-                                                    động. Chị cảm thấy luôn có
-                                                    những người bạn tuyệt vời ở
-                                                    bên.
+                                                    Đội ngày càng lớn mạnh, áp
+                                                    lực cho các mảng trưởng và
+                                                    người quản lý cũng sẽ lớn
+                                                    hơn. Anh mong các e cố gắng
+                                                    giữ cho Đội càng gắn kết,
+                                                    chấp hành nội quy, cương
+                                                    lĩnh đã đề ra, tự hào khi
+                                                    mặc chiếc áo xanh tình
+                                                    nguyện của VIT.
                                                 </p>
                                             </div>
                                         </div>
@@ -205,12 +201,12 @@ const Testimonial = ({
                                     <div className="text-color-low">
                                         <span>
                                             <a href="#">
-                                                <b>Lê Thị Kim Dung</b>
+                                                <b>Đào Nguyễn Tiến Huy</b>
                                             </a>
                                         </span>
                                     </div>
                                     <div className="testimonial-item-name text-color-high">
-                                        Tình nguyện viên - K62
+                                        Mảng trưởng hành chính - K64
                                     </div>
                                 </div>
                             </div>
@@ -268,11 +264,12 @@ const Testimonial = ({
                                             <i className="fas fa-quote-right fa1"></i>
                                             <div>
                                                 <p>
-                                                    Mình chúc thế hệ sau mạnh
-                                                    hơn thế hệ trước, luôn giữ
-                                                    được nhiệt của tuổi trẻ,
-                                                    chất của VIT; để VIT mãi mãi
-                                                    là family.
+                                                    Anh tin rằng nếu các em có
+                                                    trách nhiệm, nỗ lực, cố gắng
+                                                    thì những đóng góp của các
+                                                    em sẽ được ghi nhận và mang
+                                                    lại thành công cho tương lai
+                                                    của các em sau này.
                                                 </p>
                                             </div>
                                         </div>
@@ -282,12 +279,91 @@ const Testimonial = ({
                                     <div className="text-color-low">
                                         <span>
                                             <a href="#">
-                                                <b>Phạm Thị Hồng Nhung</b>
+                                                <b>Phạm Quang Hà</b>
                                             </a>
                                         </span>
                                     </div>
                                     <div className="testimonial-item-name text-color-high">
-                                        Tình nguyện viên - K63
+                                        Chủ nhiệm CLB VIT MEDIA - K64
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            className="tiles-item reveal-from-left"
+                            data-reveal-delay="400"
+                        >
+                            <div className="tiles-item-inner">
+                                <div className="testimonial-item-content">
+                                    <div className="image image7"></div>
+                                    <div className="box quote">
+                                        <i className="fas fa-quote-left fa2"></i>
+                                        <div className="text">
+                                            <i className="fas fa-quote-right fa1"></i>
+                                            <div>
+                                                <p>
+                                                    Với anh kỷ niệm nào ở trong
+                                                    VIT cũng đáng nhớ, nên là
+                                                    nếu phải kể kỷ niệm đáng nhớ
+                                                    nhất, có lẽ anh sẽ kể lại
+                                                    toàn bộ khoảng thời gian 3
+                                                    năm anh ở trong VIT cho đến
+                                                    hiện giờ.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
+                                    <div className="text-color-low">
+                                        <span>
+                                            <a href="#">
+                                                <b>Vũ Đình Minh</b>
+                                            </a>
+                                        </span>
+                                    </div>
+                                    <div className="testimonial-item-name text-color-high">
+                                        Mảng trưởng truyền thông - K64
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            className="tiles-item reveal-from-left"
+                            data-reveal-delay="400"
+                        >
+                            <div className="tiles-item-inner">
+                                <div className="testimonial-item-content">
+                                    <div className="image image8"></div>
+                                    <div className="box quote">
+                                        <i className="fas fa-quote-left fa2"></i>
+                                        <div className="text">
+                                            <i className="fas fa-quote-right fa1"></i>
+                                            <div>
+                                                <p>
+                                                    Nhưng mà từ khi vào Đội ấy,
+                                                    mình chưa bao giờ có cảm
+                                                    giác lạc lõng luôn. Nói
+                                                    chung giờ không biết nói gì
+                                                    nhiều cái tốt quá. Chỉ có
+                                                    tuyệt vời thôi thế nhé. Mong
+                                                    các bạn vẫn giữ phong độ này
+                                                    mãi mãi về sau
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
+                                    <div className="text-color-low">
+                                        <span>
+                                            <a href="#">
+                                                <b>Nguyễn Thu Hương</b>
+                                            </a>
+                                        </span>
+                                    </div>
+                                    <div className="testimonial-item-name text-color-high">
+                                        Mảng trưởng hậu cần - K64
                                     </div>
                                 </div>
                             </div>
