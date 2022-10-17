@@ -9,6 +9,11 @@ import image2 from '../../assets/images/hero-slide-image-02.jpg';
 import image3 from '../../assets/images/hero-slide-image-03.jpg';
 import image4 from '../../assets/images/hero-slide-image-04.jpg';
 import image5 from '../../assets/images/hero-slide-image-05.jpg';
+import image6 from '../../assets/images/hero-slide-image-06.jpg';
+import image7 from '../../assets/images/hero-slide-image-07.jpg';
+import image8 from '../../assets/images/hero-slide-image-08.jpg';
+import image9 from '../../assets/images/hero-slide-image-09.jpg';
+import logoVIT from '../../assets/images/logoVIT.png';
 
 const propTypes = {
     ...SectionProps.types
@@ -80,9 +85,12 @@ const Hero = ({
                     >
                         <div className="slide-wrapper"></div>
                         <SimpleSlide
-                            images={[image1, image2, image3, image4, image5]}
+                            images={[image1, image2, image3, image4, image6, image7, image8, image9]}
                         ></SimpleSlide>
+                        
                     </div>
+                    {/* anh bi vo */}
+                    
                     <div className="hero-content">
                         <h1
                             className="mt-0 mb-16 reveal-from-bottom"
@@ -97,10 +105,12 @@ const Hero = ({
                             >
                                 {description}
                             </p>
+                            
                             <div
                                 className="reveal-from-bottom"
                                 data-reveal-delay="600"
                             >
+                                
                                 <WonderfulButton href="#" target={null}>
                                     Đăng ký ngay
                                 </WonderfulButton>
