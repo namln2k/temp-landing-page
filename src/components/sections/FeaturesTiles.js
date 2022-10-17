@@ -69,12 +69,14 @@ const FeaturesTiles = ({
     };
 
     return (
-        <section className={outerClasses}>
+        <section {...props} className={outerClasses}>
             <div className="container">
                 <div className={innerClasses}>
                     <SectionHeader
                         data={sectionHeader}
-                        className="center-content"
+                        className="center-content reveal-from-bottom"
+                        data-reveal-value="20px"
+                        data-reveal-delay="400"
                     />
                     <div className={tilesClasses}>
                         <div className="tiles-item tile1 reveal-from-bottom">
@@ -267,10 +269,10 @@ const FeaturesTiles = ({
                                                 chỉ đạo của Đoàn thanh niên và
                                                 Hội sinh viên ĐHBKHN, hàng trăm
                                                 thành viên của Đội mang sức trẻ
-                                                và nhiệt huyết của mình đi giúp
-                                                đỡ cho những hoàn cảnh còn nhiều
-                                                khó khăn, thiếu thốn trên khắp
-                                                cả nước.
+                                                và nhiệt huyết đi giúp đỡ cho
+                                                những hoàn cảnh còn nhiều khó
+                                                khăn, thiếu thốn trên khắp cả
+                                                nước.
                                             </li>
                                         </ul>
                                     </div>

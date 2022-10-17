@@ -51,12 +51,14 @@ const Testimonial = ({
                 <div className={innerClasses}>
                     <SectionHeader
                         data={sectionHeader}
-                        className="center-content"
+                        className="center-content reveal-from-bottom"
+                        data-reveal-value="40px"
+                        data-reveal-delay="800"
                     />
                     <div className={tilesClasses}>
                         <div
                             className="tiles-item reveal-from-right"
-                            data-reveal-delay="200"
+                            data-reveal-delay="400"
                         >
                             <div className="tiles-item-inner">
                                 <div className="testimonial-item-content">
@@ -80,8 +82,7 @@ const Testimonial = ({
                                     <div className="text-color-low">
                                         <span>
                                             <a
-                                                href="https://www.facebook.com/doitinhnguyen.soict/photos/2661590270639724"
-                                                target="_blank"
+                                                href="#"
                                             >
                                                 <b>Phạm Minh Hiệp</b>
                                             </a>
@@ -95,7 +96,7 @@ const Testimonial = ({
                         </div>
                         <div
                             className="tiles-item reveal-from-right"
-                            data-reveal-delay="200"
+                            data-reveal-delay="400"
                         >
                             <div className="tiles-item-inner">
                                 <div className="testimonial-item-content">
@@ -122,8 +123,7 @@ const Testimonial = ({
                                     <div className="text-color-low">
                                         <span>
                                             <a
-                                                href="https://www.facebook.com/doitinhnguyen.soict/photos/2661590243973060"
-                                                target="_blank"
+                                                href="#"
                                             >
                                                 <b>Nguyễn Hoàng Anh</b>
                                             </a>
@@ -137,7 +137,7 @@ const Testimonial = ({
                         </div>
                         <div
                             className="tiles-item reveal-from-right"
-                            data-reveal-delay="200"
+                            data-reveal-delay="400"
                         >
                             <div className="tiles-item-inner">
                                 <div className="testimonial-item-content">
@@ -163,8 +163,7 @@ const Testimonial = ({
                                     <div className="text-color-low">
                                         <span>
                                             <a
-                                                href="https://www.facebook.com/doitinhnguyen.soict/photos/2661590980639653"
-                                                target="_blank"
+                                                href="#"
                                             >
                                                 <b>Đinh Văn Tân</b>
                                             </a>
@@ -177,8 +176,8 @@ const Testimonial = ({
                             </div>
                         </div>
                         <div
-                            className="tiles-item reveal-from-right"
-                            data-reveal-delay="200"
+                            className="tiles-item reveal-from-left"
+                            data-reveal-delay="400"
                         >
                             <div className="tiles-item-inner">
                                 <div className="testimonial-item-content">
@@ -217,8 +216,8 @@ const Testimonial = ({
                             </div>
                         </div>
                         <div
-                            className="tiles-item reveal-from-right"
-                            data-reveal-delay="200"
+                            className="tiles-item reveal-from-left"
+                            data-reveal-delay="400"
                         >
                             <div className="tiles-item-inner">
                                 <div className="testimonial-item-content">
@@ -257,8 +256,8 @@ const Testimonial = ({
                             </div>
                         </div>
                         <div
-                            className="tiles-item reveal-from-right"
-                            data-reveal-delay="200"
+                            className="tiles-item reveal-from-left"
+                            data-reveal-delay="400"
                         >
                             <div className="tiles-item-inner">
                                 <div className="testimonial-item-content">

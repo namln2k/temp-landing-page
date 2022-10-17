@@ -33,14 +33,15 @@ const Home = () => {
         <>
             <FullPageLoader hide={!loading}></FullPageLoader>
             <Hero className="illustration-section-01" info={info} />
-            <FeaturesTiles info={info} />
+            <FeaturesTiles info={info} id="general-info" />
             <FeaturesSplit
                 invertMobile
                 topDivider
                 imageFill
                 className="illustration-section-02"
+                id="main-activities"
             />
-            <Testimonial topDivider />
+            <Testimonial topDivider id="featured-faces" />
             <Cta split />
         </>
     );
