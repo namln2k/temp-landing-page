@@ -135,7 +135,7 @@ const FeaturesTiles = ({
                                     <p className="m-0 text-sm">
                                         <b>21/09</b> chính là ngày truyền thống
                                         của VIT. Thú vị hơn là, ngày này hàng
-                                        năm còn là Sinh nhật Đội siêu to khổng lồ :v
+                                        năm còn là Sinh nhật Đội.
                                     </p>
                                     {/* <GiftBox>
                                         <div className="birthday-title">

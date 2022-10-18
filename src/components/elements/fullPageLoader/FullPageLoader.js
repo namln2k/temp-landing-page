@@ -1,6 +1,6 @@
 import React from 'react';
 import './full_page_loader.scss';
-import Logo from '../../../assets/images/logo.svg';
+import Logo from '../../../assets/images/logoVIT.png';
 
 const FullPageLoader = ({ hide }) => {
     return (
