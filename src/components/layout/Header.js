@@ -132,7 +132,10 @@ const Header = ({
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#">
+                                                <a
+                                                    href="https://l.facebook.com/l.php?u=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2F1Inney24zECEnlQB0BJZzkiLOpZfz873ERVqsXMUm5XI%2Fedit%3Ffbclid%3DIwAR0ffqpwBo_kikEigy4E0YgVXzQwCB2sdsBv0kEJhuxM2qEucOOcsuW0yXQ&h=AT1nljIRVQp7YUxgKLwjzxPAg3T1A6_K0f698REhcGDILmita3TaOdpdouFlkTt81M2dzkJGBeyoIhw9Srbo2cUUp4YDYxwmEy2-orkCLSyh5gi2Uadi5F09vi76pQ"
+                                                    target="_blank"
+                                                >
                                                     Đăng ký ngay
                                                 </a>
                                             </li>
