@@ -17,20 +17,26 @@ const Home = () => {
         const loadInfo = async () => {
             setLoading(true);
 
-            const response = await axios.get(`${apiUrl}/vit`);
+            
+            try {
+                const response = await axios.get(`${apiUrl}/vit`);
 
-            if (response.data.success) {
+                if (response.data.success) {
                 setInfo(response.data.data[0]);
             }
-
-            setLoading(false);
+            } catch (error) {
+                console.log(error)
+            }
+            finally {setLoading(false)};
+            
         };
-
+        
         loadInfo();
     }, []);
 
     return (
         <>
+            
             <FullPageLoader hide={!loading}></FullPageLoader>
             <Hero className="illustration-section-01" info={info} />
             <FeaturesTiles info={info} id="general-info" />
