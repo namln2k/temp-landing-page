@@ -85,11 +85,19 @@ const Hero = ({
                     >
                         <div className="slide-wrapper"></div>
                         <SimpleSlide
-                            images={[image1, image2, image3, image4, image6, image7, image8, image9]}
+                            images={[
+                                image1,
+                                image2,
+                                image3,
+                                image4,
+                                image6,
+                                image7,
+                                image8,
+                                image9
+                            ]}
                         ></SimpleSlide>
-                        
                     </div>
-                    
+
                     <div className="hero-content">
                         <h1
                             className="mt-0 mb-16 reveal-from-bottom"
@@ -104,13 +112,15 @@ const Hero = ({
                             >
                                 VIT - Chúng ta là một gia đình ❤️
                             </p>
-                            
+
                             <div
                                 className="reveal-from-bottom"
                                 data-reveal-delay="600"
                             >
-                                
-                                <WonderfulButton href="#" target={null}>
+                                <WonderfulButton
+                                    link="https://l.facebook.com/l.php?u=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2F1Inney24zECEnlQB0BJZzkiLOpZfz873ERVqsXMUm5XI%2Fedit%3Ffbclid%3DIwAR0ffqpwBo_kikEigy4E0YgVXzQwCB2sdsBv0kEJhuxM2qEucOOcsuW0yXQ&h=AT1nljIRVQp7YUxgKLwjzxPAg3T1A6_K0f698REhcGDILmita3TaOdpdouFlkTt81M2dzkJGBeyoIhw9Srbo2cUUp4YDYxwmEy2-orkCLSyh5gi2Uadi5F09vi76pQ"
+                                    target="_blank"
+                                >
                                     Đăng ký ngay
                                 </WonderfulButton>
                             </div>
